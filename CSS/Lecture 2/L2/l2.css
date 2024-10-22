@@ -1,0 +1,73 @@
+/* *Universal Selector */
+* {
+  color: white;
+}
+/* *Type Selector */
+body {
+  background-color: gray;
+}
+button {
+  background-color: bisque;
+  color: black;
+}
+/* *Class Selector */
+.classTitle {
+  text-align: center;
+  color: red;
+}
+/* *ID Selector */
+#idTitle {
+  font-size: 4rem;
+}
+/* *Descendant Selector */
+div p {
+  color: yellow;
+}
+/* *Child Selector  */
+
+div > span {
+  color: aqua;
+}
+/* *Adjacent Sibling Selector */
+h5 + p {
+  color: rgb(86, 34, 255);
+  font-weight: bold;
+}
+/* *General Sibling Selector */
+/* h1 ~ p {
+  color: rgb(0, 136, 255);
+} */
+/* *Attribute Selectors */
+input[type="password"] {
+  background-color: coral;
+}
+/* *Pseudo-classes */
+button:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+input:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+
+li:first-child {
+  color: darkgreen;
+  font-size: 4rem;
+}
+
+/* *Pseudo-elements  */
+#pSudo::first-line {
+  color: rgb(255, 0, 157);
+}
+/* *Grouping Selectors */
+h2,
+h3,
+h4 {
+  color: rgb(5, 255, 5);
+}
+/* * Combining Selectors */
+div.combiningSel > p:first-child {
+  color: rgb(0, 0, 0);
+  /* font-size: 3rem; */
+}
