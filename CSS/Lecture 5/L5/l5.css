@@ -1,0 +1,44 @@
+body {
+  height: 100rem;
+  background-color: #fff1f1;
+}
+/* *Border & Outline */
+input {
+  margin-top: 3rem;
+  /* border-width: 3px;
+  border-style: dashed;
+  border-color: rgb(47, 0, 255); */
+  border: 10px solid rgb(47, 0, 255);
+  /* border-image-source: url("https://img.freepik.com/free-vector/gradient-code-logo-with-tagline_23-2148811020.jpg"); */
+
+  /* border-bottom: solid;
+  border-right: 3px dotted;
+  border-left: 3px double; */
+  /* border-radius: 2rem; */
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  /* outline: none; */
+  /* outline: 5px dotted blue; */
+  /* outline: none; */
+}
+
+/* *Background  */
+.container {
+  color: white;
+  border: 2px solid black;
+  height: 80vh;
+  margin: auto;
+  /* ?Ofset-x Ofset-y blur-redus*/
+  box-shadow: 5px 5px 15px blue;
+  width: 80%;
+  /* background-repeat: no-repeat; */
+  /* background-position: center;
+  background-size: cover;
+  background-attachment: scroll; */
+  background: url("https://img.freepik.com/free-vector/gradient-code-logo-with-tagline_23-2148811020.jpg")
+    no-repeat center/cover fixed;
+
+  /* background-color: antiquewhite; */
+  background-image: url("https://img.freepik.com/free-vector/gradient-code-logo-with-tagline_23-2148811020.jpg");
+}
